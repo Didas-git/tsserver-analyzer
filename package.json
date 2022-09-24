@@ -1,0 +1,17 @@
+{
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:test": "tsc --noEmit",
+    "test": "ts-node src/test.ts",
+    "start": "node ."
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.20",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.3"
+  }
+}
